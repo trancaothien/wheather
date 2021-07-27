@@ -53,6 +53,7 @@ dependencies:
   supercharged: ^2.0.0
   keyboard_dismisser: ^2.0.0
   equatable: ^2.0.2
+  geolocator: ^7.3.1
 
 dev_dependencies:
   flutter_test:
@@ -65,20 +66,20 @@ flutter:
     - assets/images/
 
   fonts:
-    - family: Fira
+    - family: NunitoSans
       fonts:
-        - asset: assets/fonts/FiraSans-Regular.ttf
-        - asset: assets/fonts/FiraSans-Black.ttf
+        - asset: assets/fonts/NunitoSans-Regular.ttf
+        - asset: assets/fonts/NunitoSans-Black.ttf
           weight: 900
-        - asset: assets/fonts/FiraSans-Medium.ttf
+        - asset: assets/fonts/NunitoSans-SemiBold.ttf
           weight: 800
-        - asset: assets/fonts/FiraSans-Medium.ttf
+        - asset: assets/fonts/NunitoSans-SemiBold.ttf
           weight: 700
-        - asset: assets/fonts/FiraSans-Bold.ttf
+        - asset: assets/fonts/NunitoSans-Bold.ttf
           weight: 600
-        - asset: assets/fonts/FiraSans-Light.ttf
+        - asset: assets/fonts/NunitoSans-Light.ttf
           weight: 300
-        - asset: assets/fonts/FiraSans-Light.ttf
+        - asset: assets/fonts/NunitoSans-Light.ttf
           weight: 200
-        - asset: assets/fonts/FiraSans-Light.ttf
+        - asset: assets/fonts/NunitoSans-Light.ttf
           weight: 100

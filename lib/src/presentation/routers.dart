@@ -1,22 +1,24 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_app/src/presentation/about_weather/about_weather_screen.dart';
 
 import 'navigation/navigation_screen.dart';
 
 class Routers {
   static const String navigation = "/navigation";
-
+  static const String about = "/about";
   static Route<dynamic> generateRoute(RouteSettings settings) {
     var arguments = settings.arguments;
     switch (settings.name) {
       case navigation:
         return animRoute(NavigationScreen(), name: navigation);
-        break;
+      case about:
+        return animRoute(AboutWeatherScreen(), name: about);
       default:
-        return animRoute(Container(
-            child:
-                Center(child: Text('No route defined for ${settings.name}'))
-          ), name: "/error"
-        );
+        return animRoute(
+            Container(
+                child: Center(
+                    child: Text('No route defined for ${settings.name}'))),
+            name: "/error");
     }
   }
 

@@ -6,11 +6,11 @@ class NetworkState<T> {
   String? message;
   T? data;
 
-  NetworkState({this.message, this.data,  this.status});
+  NetworkState({this.message, this.data, this.status});
 
   NetworkState.fromJson(Map<String, dynamic> json) {
     this.message = json['message'];
-    this.status = json['status'] ;
+    this.status = json['status'];
     this.data = json['data'];
   }
 

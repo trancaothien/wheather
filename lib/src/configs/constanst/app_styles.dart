@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
-const String FONT_FAMILY_NUNITO = "Fira";
+const String FONT_FAMILY_NUNITO = "NunitoSans";
 
 const FONT_SIZE_VERY_SMALL = 10.0;
 const FONT_SIZE_SMALL = 12.0;
-const FONT_SIZE_MEDIUM = 15.0;
-const FONT_SIZE_LARGE = 20.0;
+const FONT_SIZE_MEDIUM = 20.0;
+const FONT_SIZE_LARGE = 125.0;
 
 const TEXT_HEIGHT = 1.2;
 
